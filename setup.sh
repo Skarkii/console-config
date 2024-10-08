@@ -110,4 +110,4 @@ echo "Script finished running"
 # Ensure all changes are updated correctly
 source "$BASHRC_FILE"
 export PS1="$PS1"
-exec bash
+exec $0
