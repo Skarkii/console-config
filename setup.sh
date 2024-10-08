@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -i
 
 BASHRC_FILE=~/.bashrc
 
