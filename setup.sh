@@ -35,6 +35,7 @@ sudo pacman -S --needed \
                 python3 \
                 openssh \
                 xclip \
+		gcc \
 
 
 ##
