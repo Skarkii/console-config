@@ -70,6 +70,11 @@ alias grep='grep --color=auto'
 # Xclip
 alias xclip='xclip -sel clip'
 
+# cmkdir
+cmkdir() {
+  mkdir -p "$1" && cd "$1"
+}
+
 PS1='\[\033[00;32m\]\u@\h\[\033[01;37m\]:\[\033[01;34m\]\w\[\033[00m\] >> '
 # END" >> $BASHRC_FILE
 
