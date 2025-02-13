@@ -75,6 +75,9 @@ alias grep='grep --color=auto'
 # Xclip
 alias xclip='xclip -sel clip'
 
+# Zeditor
+alias zed='zeditor'
+
 # cmkdir
 cmkdir() {
   mkdir -p "$1" && cd "$1"
